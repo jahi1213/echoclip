@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 
 const CLIPS = [
   { id: 1, title: "You Can't Handle the Truth", source: "A Few Good Men", category: "Movies", plays: "2.4M", emoji: "⚖️", duration: "0:03", color: "#FF6B35" },
